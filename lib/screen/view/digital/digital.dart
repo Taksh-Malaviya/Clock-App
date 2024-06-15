@@ -214,7 +214,9 @@ class _DigitalClockState extends State<DigitalClock> {
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                // SizedBox(width: w * 0.3,),
+                //SizedBox(width: w * 0.3,),
+
+                (dropdown==null)?Text("India") : Text("${dropdown}"),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
